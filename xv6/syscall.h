@@ -23,3 +23,4 @@
 #define SYS_freemem  22
 #define SYS_totproc 23
 #define SYS_sysinfo 24
+#define SYS_systouch 25

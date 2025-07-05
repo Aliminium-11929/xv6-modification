@@ -13,6 +13,14 @@
 
 #define MAXARGS 10
 
+#define HISTORY 16
+#define CMDLINE_MAX 128
+
+char history[HISTORY][CMDLINE_MAX];
+int hist_count = 0;
+int hist_index = 0;
+
+
 struct cmd {
   int type;
 };

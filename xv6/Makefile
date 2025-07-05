@@ -182,6 +182,9 @@ UPROGS=\
 	_wc\
 	_zombie\
 	_sysinf\
+	_touch\
+	_find\
+	_mv\
 
 fs.img: mkfs README $(UPROGS)
 	./mkfs fs.img README $(UPROGS)

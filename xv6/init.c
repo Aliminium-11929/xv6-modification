@@ -5,6 +5,8 @@
 #include "user.h"
 #include "fcntl.h"
 
+#define USRCNT
+
 char *argv[] = { "sh", 0 };
 
 int
